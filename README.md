@@ -1,10 +1,5 @@
-<!-- Project title -->
-<div align="center">
-    <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&center=true&width=435&lines=Netshow+command" alt="Project Name Typing" /></a>
-</div>
-
 # About
-Netshow command is a binary written in C language that returns a list of interfaces on your system and their IP addresses (IPv4 and IPv6).
+**Netshow command** is a binary written in C language that returns a list of interfaces on your system and their IP addresses (IPv4 and IPv6).
 
 # Getting started
 
@@ -12,7 +7,7 @@ Netshow command is a binary written in C language that returns a list of interfa
 ```bash
 $ git clone https://github.com/alexispages/netshow.git
 ```
-- Permit execution of the **netshow** binary file:
+- Permit execution of the **netshow** binary file
 ```bash
 $ chmod +x netshow
 ```
@@ -20,8 +15,7 @@ $ chmod +x netshow
 
 # Compile binary file locally
 
-You can build netshow binary by using gcc:
-
+You can build netshow binary by using gcc
 ```bash
 $ gcc netshow.c -o netshow
 ```
